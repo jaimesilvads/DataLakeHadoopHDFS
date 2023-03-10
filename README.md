@@ -45,3 +45,4 @@ Comando usado:   hadoop dfs -put /mnt/c/app/yelp/* landing
 6. Foi feita a listagem dos arquivos para validar o funcionamento - hadoop dfs -ls landing
 
 <p align="center"><img src="./images/ListaArquivosHDFS.png" width="500"></p>
+
