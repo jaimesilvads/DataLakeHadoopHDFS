@@ -40,3 +40,4 @@ https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
 
 5. Foi feita a listagem dos arquivos para validar o funcionamento 
 <p align="center"><img src="./imagens/ListaArquivosHDFS.png" width="500"></p>
+<p align="center"><img src="./images/ListaArquivosHDFS.png" width="500"></p>
