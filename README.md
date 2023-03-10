@@ -1,7 +1,7 @@
 ![Badge em Desenvolvimento](https://img.shields.io/badge/WSL-yellow)
 ![Badge em Desenvolvimento](https://img.shields.io/badge/HADOOP-blue)
 ![Badge em Desenvolvimento](https://img.shields.io/badge/HDFS-green)
-![Badge em Desenvolvimento](https://img.shields.io/badge/Jupyter-Notebook-blue)
+
 ### FRANCISCO JAIME DA SILVA
 
 
@@ -11,13 +11,13 @@
 <p align="center"><img src="./imagens/AwsERM.png" width="500"></p>
 
 
-O projeto consiste em criar um data lake no Hdaoop HDFS, fazer upload de dados para atestar o funcionamento.
+O projeto consiste em criar um data lake no Hadoop HDFS e fazer upload de dados para atestar o funcionamento.
 
 ---
 
 ### Etapas do Projeto
 
-1. foi instlado o WSL para permitir baixar usar o linux(Ubuntu20.04)
+1. Foi instlado o WSL para permitir baixar usar o linux(Ubuntu20.04)
 2. Foi Instalado e configurado ambeinte Hadoop Single node.
 3 . Foram criados o diretórios abaixo no HDFS
 <ul>
@@ -39,6 +39,6 @@ https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
 </ul> 
 
 5. Foi feita a listagem dos arquivos para validar o funcionamento 
-<p align="center"><img src="./imagens/SparkCompletado.png" width="500"></p>
+<p align="center"><img src="./imagens/ListaArquivos.png" width="500"></p>
 
 
