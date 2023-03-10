@@ -33,8 +33,7 @@ O projeto consiste em criar um data lake no Hadoop HDFS e fazer upload de dados 
 <p align="center"><img src="./images/ListaDiretoriosHDFS.png" width="500"></p>
 
 4. Foi dada a permissão total nos diretórios - hdfs dfs -chmod  go+w (caminho do diretório)
-
-5.Foi realizado o upload dos arquivos de dados na zona de pouso(landing), extraídos do kaggle
+5. Foi realizado o upload dos arquivos de dados na zona de pouso(landing), extraídos do kaggle
 <https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset>
 
 Comando usado:   hadoop dfs -put /mnt/c/app/yelp/* landing
