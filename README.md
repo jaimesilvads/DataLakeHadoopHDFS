@@ -18,7 +18,9 @@ O projeto consiste em criar um data lake no Hadoop HDFS e fazer upload de dados 
 ### Etapas do Projeto
 
 1. Foi instlado o WSL para permitir baixar usar o linux(Ubuntu20.04) sobre o Windows 10
+
 2. Foi Instalado e configurado ambiente Hadoop Single node.
+
 3 . Foram criados o diretórios abaixo no HDFS
 <ul>
   <li>landing - Landing zone ou Zona de Pouso(dados em formato bruto)</li>
@@ -29,7 +31,9 @@ O projeto consiste em criar um data lake no Hadoop HDFS e fazer upload de dados 
   - hadoop dfs -mkdir -p /usr/local/hadoop/data/dados/Curated
 </ul> 
 <p align="center"><img src="./images/ListaDiretoriosHDFS.png" width="500"></p>
+
 4. Foi dada a permissão total nos diretórios - hdfs dfs -chmod  go+w (caminho do diretório)
+
 5.Foi realizado o upload dos arquivos de dados na zona de pouso(landing), extraídos do kaggle
 <https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset>
 
