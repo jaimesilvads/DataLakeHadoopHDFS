@@ -19,7 +19,7 @@ O projeto consiste em criar um data lake no Hadoop HDFS e fazer upload de dados 
 
 1. Foi instlado o WSL para permitir baixar usar o linux(Ubuntu20.04) sobre o Windows 10
 2. Foi Instalado e configurado ambiente Hadoop Single node.
-3 . Foram criados o diretórios abaixo no HDFS
+3. Foram criados o diretórios abaixo no HDFS
 <ul>
   <li>landing - Landing zone ou Zona de Pouso(dados em formato bruto)</li>
   - hadoop dfs -mkdir -p /usr/local/hadoop/data/dados/landing
