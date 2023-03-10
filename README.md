@@ -8,7 +8,7 @@
 ## Projeto Engenharia de dados Datalake Simples Hadooop/HDFS
 
 
-<p align="center"><img src="./images/AwsERM.png" width="500"></p>
+<p align="center"><img src="./images/hadoop-hdfs.png" width="500"></p>
 
 
 O projeto consiste em criar um data lake no Hadoop HDFS e fazer upload de dados para atestar o funcionamento.
