@@ -27,7 +27,7 @@ O projeto consiste em criar um data lake no Hadoop HDFS e fazer upload de dados 
   - hadoop dfs -mkdir -p /usr/local/hadoop/data/dados/landing
   <li>curated - Curated zone(Dados limpos, agregados e prontos para análises)</li>  
 </ul> 
-<p align="center"><img src="./imagens/backetsaws.png" width="500"></p>
+<p align="center"><img src="./imagens/ListaDiretoriosHDFS.png" width="500"></p>
 4.Foi realizado o upload dos arquivos de dados na zona de pouso(landing), extraídos do kaggle
 https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
 <ul>
@@ -39,6 +39,6 @@ https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
 </ul> 
 
 5. Foi feita a listagem dos arquivos para validar o funcionamento 
-<p align="center"><img src="./imagens/ListaArquivos.png" width="500"></p>
+<p align="center"><img src="./imagens/ListaArquivosHDFS.png" width="500"></p>
 
 
