@@ -31,6 +31,8 @@ O projeto consiste em criar um data lake no Hadoop HDFS e fazer upload de dados 
 <p align="center"><img src="./images/ListaDiretoriosHDFS.png" width="500"></p>
 4.Foi realizado o upload dos arquivos de dados na zona de pouso(landing), extraídos do kaggle
 https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
+
+Comando usado:   hadoop dfs -put /mnt/c/app/yelp/* landing
 <ul>
   <li>yelp_academic_dataset_businessjson</li>  
   <li>Tyelp_academic_dataset_checkin.json</li>
@@ -39,6 +41,6 @@ https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
   <li>yelp_academic_dataset_user.json</li>
 </ul> 
 
-5. Foi feita a listagem dos arquivos para validar o funcionamento 
+5. Foi feita a listagem dos arquivos para validar o funcionamento - hadoop dfs -ls landing
 
 <p align="center"><img src="./images/ListaArquivosHDFS.png" width="500"></p>
